@@ -10,3 +10,18 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3pt;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+
+}
+h2.lineout{
+  text-decoration: line-through;
+  text-decoration-color: darkorchid;
+}
+
