@@ -11,6 +11,11 @@ body {
   -o-background-size: cover;
 }
 
+.navtext {
+  font-variant: small-caps;
+  color: lightpink;
+}
+
 h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 3pt;
