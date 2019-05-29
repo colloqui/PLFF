@@ -13,7 +13,7 @@ body {
 
 .navtext {
   font-variant: small-caps;
-  color: lightpink;
+  color: lightpink !important;
 }
 
 h1{
