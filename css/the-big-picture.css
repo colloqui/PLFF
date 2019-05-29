@@ -2,7 +2,16 @@
  * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ *
+ *font-family: 'Montserrat', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Cute Font', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Sigmar One', cursive;
  */
+
 body {
   background: url(../img/cliff.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,22 +20,29 @@ body {
   -o-background-size: cover;
 }
 
+.navBack{
+  background-color: indianred;
+}
 .navtext {
+  font-family: 'Cute Font';
   font-variant: small-caps;
-  color: lightpink !important;
+  color: black !important;
+  font-size: 1.5rem;
 }
 
 h1{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 3pt;
+  font-family: 'Bungee Inline';
 }
 
 h2{
-  font-family: 'Courier New', Courier, monospace;
+   font-family: 'Cute Font';
 
 }
-h2.lineout{
-  text-decoration: line-through;
-  text-decoration-color: darkorchid;
+a:hover{
+  text-decoration: line-through !important;
+  text-decoration-style:wavy !important; 
+  text-decoration-color: lightpink !important;
+ 
 }
 
