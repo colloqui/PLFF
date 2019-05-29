@@ -11,6 +11,10 @@ font-family: 'Cute Font', cursive;
 font-family: 'Monoton', cursive;
 font-family: 'Sigmar One', cursive;
  */
+ @font-face {
+  font-family: "Cute Font";
+  src: url("fonts/Cute_Font/CuteFont-Regular.ttf") format('truetype');
+  }
 
 body {
   background: url(../img/cliff.jpg) no-repeat center center fixed;
@@ -25,7 +29,6 @@ body {
 }
 .navtext {
   font-family: 'Cute Font';
-  font-variant: small-caps;
   color: black !important;
   font-size: 1.5rem;
 }
@@ -36,7 +39,7 @@ h1{
 }
 
 h2{
-   font-family: 'Cute Font';
+  font-family: 'Cute Font';
 
 }
 a:hover{
