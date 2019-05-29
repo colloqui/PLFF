@@ -40,9 +40,11 @@ h2{
 
 }
 a:hover{
+  /*
   text-decoration: line-through !important;
   text-decoration-style:wavy !important; 
   text-decoration-color: lightpink !important;
- 
+ */
+ color:lightpink !important;
 }
 
