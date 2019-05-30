@@ -15,6 +15,10 @@ font-family: 'Sigmar One', cursive;
   font-family: "Cute Font";
   src: url("fonts/Cute_Font/CuteFont-Regular.ttf") format('truetype');
   }
+  @font-face {
+    font-family: 'Mexican Fiesta';
+    src: url("fonts/Mexican/mexican-fiesta.ttf")
+  }
 
 body {
   background: url(../img/cliff.jpg) no-repeat center center fixed;
