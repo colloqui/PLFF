@@ -1,5 +1,5 @@
 var bgImageArray = ["cliff.jpg", "over.jpg", "turn.jpg"],
-base = "../img/",
+base = "img/",
 secs = 5;
 bgImageArray.forEach(function(img){
     new Image().src = base + img; 
