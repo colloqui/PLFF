@@ -19,16 +19,29 @@ font-family: 'Sigmar One', cursive;
     font-family: 'Mexican Fiesta';
     src: url("fonts/Mexican/mexican-fiesta.ttf")
   }
+section{
+  background-color: transparent!important;
+}
 
-body {
-  background: url(../img/cliff.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
+div{
+  background-color: transparent!important;
+}
+
+html {
+  margin: 0;
+  background-blend-mode: darken;
+  transition: 3s;
+  background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  */
 }
 
-.navBack{
+body{background-color: transparent!important;}
+
+.navBack {
   background-color: indianred;
 }
 .navtext {
